@@ -1,10 +1,10 @@
 cask "dopishi" do
-  version "1.4.0"
-  sha256 "9f19e9b1a41f84c8601fbd5ec58e25381b61dbe4aa862768d43806b3bf8e95f2"
+  version "1.5.0"
+  sha256 "372c56d05c3ad21fb5f4078ca8135aff17f926268e843f24d5e261eba4c879ec"
 
   url "https://github.com/luksiko/dopishi/releases/download/v#{version}/Dopishi-#{version}-universal.dmg"
   name "Dopishi"
-  desc "Smart keyboard layout switcher, inline auto-correction and text converter"
+  desc "On-device AI writing copilot, typo & layout auto-corrector, and keyboard switcher"
   homepage "https://github.com/luksiko/dopishi"
 
   livecheck do
